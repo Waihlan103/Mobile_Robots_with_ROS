@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
+    
+    <node pkg="ros_topics" type="basic_topics.py" name="topic_publisher" output="screen"/>
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="test2" type="t2.py" name="test_publisher" output="screen"/>
+</launch>

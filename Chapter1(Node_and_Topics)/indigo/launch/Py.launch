@@ -1,0 +1,4 @@
+<launch>
+	<node pkg = "indigo"	type = "minimal_publisher.py"	name = "node1"	output = "screen" />
+	<node pkg = "indigo"	type = "minimal_subscriber.py"	name = "node2"	output = "screen" />
+</launch>

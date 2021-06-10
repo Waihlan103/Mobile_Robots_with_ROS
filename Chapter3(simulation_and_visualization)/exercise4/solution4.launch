@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="exercise4" type="ex4_pub.py" name="two_ints_publisher" output="screen" />
+    <node pkg="exercise4" type="ex4_sub.py" name="two_ints_subscriber" output="screen" />
+</launch>

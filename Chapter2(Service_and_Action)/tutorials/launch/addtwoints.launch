@@ -1,0 +1,4 @@
+<launch>
+	<node pkg = "tutorials" 	type = "add_two_ints_server.py"		name = "server_node" 		output = "screen"/>
+	<node pkg = "tutorials"		type = "add_two_ints_client.py"		name = "client_node"		output = "screen"/>
+</launch> 

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="exercise2" type="solution2.py" name="topic_publisher" output="screen"/>
+</launch>
